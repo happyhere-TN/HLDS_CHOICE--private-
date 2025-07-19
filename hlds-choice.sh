@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 
 #fast shell's
 alias update="apt update -y && apt upgrade -y"
@@ -13,13 +12,25 @@ alias choiceengine="cd && wget https://github.com/happyhere-TN/HLDS_CHOICE--priv
 echo "(1-6) updating ..." && sleep 3 && update
 
 #add-i386
-clear && echo "(2-6) add-i386libs..." && sleep 3 && add-i386
+clear 
+echo "(2-6) add-i386libs..." 
+sleep 3 
+add-i386
 
 #install-steamcmd
-clear && echo "(3-6) installing steamcmd..." && sleep 3 && installsteamcmd
+clear
+echo "(3-6) installing steamcmd..."
+sleep 3
+installsteamcmd
 
 #tools
-clear && echo "(4-6) installing-tools..." && sleep 3 && tools
+clear
+echo "(4-6) installing-tools..."
+sleep 3
+tools
 
 #choice-game-lib-u-wont
-clear && echo "(5-6) select-game..." && sleep 3 && choiceengine
+clear
+echo "(5-6) select-game..."
+sleep 3
+choiceengine
