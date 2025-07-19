@@ -1,11 +1,6 @@
 #!/bin/bash
 
 #fast shell's
-alias update="apt update -y && apt upgrade -y"
-alias addi386="dpkg --add-architecture i386 && apt update -y && apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386"
-alias installsteamcmd="add-apt-repository multiverse && cd && apt install steamcmd && cd /usr/games && chmod +x * && ./steamcmd"
-alias tools="apt install unzip -y && apt install wget -y && apt install apache2 && apt update -y"
-alias choiceengine="cd && wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/blob/main/choiceengine.sh && sh choiceengine.sh"
 
 #install-libs-and-softweres
 echo "updating..."
