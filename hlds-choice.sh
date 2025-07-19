@@ -9,7 +9,9 @@ alias choiceengine="cd && wget https://github.com/happyhere-TN/HLDS_CHOICE--priv
 
 
 #install-libs-and-softweres
-echo "(1-6) updating ..." && sleep 3 && update
+echo "updating..."
+sleep 3
+update
 
 #add-i386
 clear 
