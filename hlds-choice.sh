@@ -76,6 +76,9 @@ sleep 3
 cd
 
 #choce-game-engine
+
 clear
-echo "  [6-6] tipe the name of game u want: 
-  xashds   or   hlds"
+
+echo "  [6-6] tipe the name of game u want: xashds   or   hlds"
+
+xashds
