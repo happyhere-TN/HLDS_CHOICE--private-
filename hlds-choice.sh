@@ -68,4 +68,4 @@ sleep 3
 
 cd
 
-wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/blob/main/choiceengine.sh && sh choiceengine.sh
+wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/choiceengine.sh
