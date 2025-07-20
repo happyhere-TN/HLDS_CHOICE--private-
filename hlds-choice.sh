@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#fast shells
-
 alias update="apt update -y && apt upgrade -y"
 
 alias addi386="dpkg --add-architecture i386 && apt update -y && apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386"
