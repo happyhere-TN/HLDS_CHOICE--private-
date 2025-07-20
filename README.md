@@ -5,11 +5,11 @@
 
 **HLDS_choce have:**
 
--dialog.box
+- Dialog.box
 
--HLDS the installation from steamcmd with latest update +amxmodw 1.9 (cstrike,valve)
+- HLDS the installation from steamcmd with latest update +amxmodw 1.9 (cstrike,valve)
 
--XASHDS yes u can choose xashds on dialog menu to installing from steamcmd with latest libs version and u can runing xashds server (cstrike,valve)
+- XASHDS yes u can choose xashds on dialog menu to installing from steamcmd with latest libs version and u can runing xashds server (cstrike,valve)
 
 # login first
     sudo -i 
