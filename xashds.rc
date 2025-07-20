@@ -34,6 +34,6 @@ case $CHOICE in
             cd && cd /home/xash/valve && clear && clear && nano server.cfg
             ;;
        5)
-            cd && cd /home && rm -rf xash && cd && cd /home/.xashbackup && cp -rf xash /home && dialog --msgbox "reinstall-complited!" 10 25 && clear
+            cd && cd /home && rm -rf xash && cd && cd /home/.xashbackup && cp -rf xash /home && dialog --msgbox "reinstall-complited!" 10 25 && clear && echo "  [[ to runing XASHDS-CHOICE tipe: bach xashds.rc ]]"
             ;;
 esac
