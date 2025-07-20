@@ -1,12 +1,11 @@
 #!/bin/bash
-alias installing="sleep 3 && clear && echo installation starting... "
 
 #fast shell's
-alias hlds="installing && cd && cd /home/xash && cd.. && mkdir hlds && cd xash && mv -rf * /home/hlds chmod +x * && amxhlds"
+alias hlds="cd && cd /home/xash && cd.. && mkdir hlds && cd xash && mv -rf * /home/hlds chmod +x * && amxhlds"
 alias amxhlds="cd && cd /home/hlds/cstrike && rm liblist.gam && cd .. && wget https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/raw/refs/heads/main/addons_for_xashds.zip && extamx"
 alias extamx="unzip addons_for_xashds.zip && rm addons_for_xashds.zip"
 alias hldsprof="cd && wget"
-alias xashds="installing && cd && cd /home/xash && rm filesystem_stdio.so && wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz && xashlibs"
+alias xashds="cd && cd /home/xash && rm filesystem_stdio.so && wget https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-vbo-fix/xashds-linux-i386.tar.gz && xashlibs"
 alias xashlibs="tar -zxf xashds-linux-i386.tar.gz && cd xashds-linux-i386 && cp -rf * /home/xash && cd .. && rm xashds-linux-i386.tar.gz && rm -rf xashds-linux-i386 && chmod +x * && cd && cd /home/xash && amxxash"
 alias amxxash="cd && cd /home/xash/cstrike && rm liblist.gam && rm -rf addons && cd .. && wget https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/raw/refs/heads/main/addons_for_xashds.zip && extamxxash"
 alias extamxxash="unzip addons_for_xashds.zip && rm addons_for_xashds.zip && xashprof"
@@ -20,7 +19,7 @@ alias tools="apt install unzip -y && apt install wget -y && apt install apache2 
 
 clear
 
-echo "(1-6) updating...
+echo " [1-6] updating...
 
 "
 
@@ -32,7 +31,7 @@ update
 
 clear 
 
-echo "(2-6) add-i386libs...
+echo "  [2-6] add-i386libs...
 
 " 
 
@@ -44,7 +43,7 @@ addi386
 
 clear
 
-echo "(3-6) installing steamcmd...
+echo "  [3-6] installing steamcmd...
 
 "
 
@@ -56,7 +55,7 @@ installsteamcmd
 
 clear
 
-echo "(4-6) installing-tools...
+echo "  [4-6] installing-tools...
 
 "
 
@@ -68,7 +67,7 @@ tools
 
 clear
 
-echo "(5-6) select-game...
+echo "  [5-6] select-game...
 
 "
 
@@ -77,6 +76,6 @@ sleep 3
 cd
 
 #choce-game-engine
-
-echo "(6-6) tipe the name of game u want: 
+clear
+echo "  [6-6] tipe the name of game u want: 
   xashds   or   hlds"
