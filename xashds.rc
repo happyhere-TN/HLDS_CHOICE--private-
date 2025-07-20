@@ -22,10 +22,10 @@ CHOICE=$(dialog --clear \
 
 clear
 case $CHOICE in
-      1)
+       1)
             cd && cd /home/xash && chmod +x * && clear && screen ./xash -game cstrike
             ;;    
-      2)
+       2)
             cd && cd /home/xash && chmod +x * && clear && screen ./xash -game valve
             ;;
        3)
@@ -38,6 +38,6 @@ case $CHOICE in
             cd && cd /home && rm -rf xash && cd && cd /home/.xashbackup && cp -rf xash /home && dialog --msgbox "reinstall-complited!" 10 25 && clear && echo "  [[ to runing XASHDS-CHOICE tipe: bach xashds.rc ]]"
             ;;
        6)
-            cd && clear && echo " xashds-files-in: /home/xash "
+            cd && clear && echo " xashds-files-in: /home/xash"
             ;;
 esac
