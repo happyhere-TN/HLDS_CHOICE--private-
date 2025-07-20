@@ -9,7 +9,8 @@ OPTIONS=(1 "--START-CSTRIKE--"
                      2 "--START-HL--"
                      3 "--CS_SERVER-EDIT"
                      4 "--HL_SERVER-EDIT"
-                     5 "--Reinstall-xashds")
+                     5 "--Reinstall-xashds"
+                     6 "--xashds-info")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -35,5 +36,17 @@ case $CHOICE in
             ;;
        5)
             cd && cd /home && rm -rf xash && cd && cd /home/.xashbackup && cp -rf xash /home && dialog --msgbox "reinstall-complited!" 10 25 && clear && echo "  [[ to runing XASHDS-CHOICE tipe: bach xashds.rc ]]"
+            ;;
+       6)
+            cd && clear && echo "  [[ all you need about moding and other here:]]
+  
+--/xhashds directory in:
+/home/xash"
+
+--/how to add options when launching server:
+go to /home/xash and launch server with options ./xash -game bla -bla ...
+
+--/what is Reinstall-xashds mean:
+u can use this option on menu to geting the default files of xashds with amxx 1.9"
             ;;
 esac
