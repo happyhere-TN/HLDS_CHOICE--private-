@@ -1,6 +1,6 @@
 # HLDS_CHOICE--private-
 
- its a simple methode to install half-life dedicated server on linux
+ its a simple methode to install half-life dedicated server on linux (ubuntu,debian,mint)amdx64
 
 
 **HLDS_choce have:**
