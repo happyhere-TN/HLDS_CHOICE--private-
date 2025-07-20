@@ -1,9 +1,9 @@
-HEIGHT=40
+HEIGHT=20
 WIDTH=40
 CHOICE_HEIGHT=20
 BACKTITLE="controle with up down keys"
-TITLE="select xash game server to open"
-MENU="Choose one of the following options:"
+TITLE="Choose one of the following options"
+MENU="select xash game server to open:"
 
 OPTIONS=(1 "--START-CSTRIKE--"
                      2 "--START-HL--"
