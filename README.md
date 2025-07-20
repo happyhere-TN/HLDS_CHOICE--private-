@@ -4,7 +4,7 @@
 
 choice mean in project name: is ur choice for select server hlds or xashds 
 
-**HLDS_choce have:**
+**HLDS_choice have:**
 
 - Dialog.box
 
