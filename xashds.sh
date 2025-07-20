@@ -1,7 +1,5 @@
 #!/bin/bash
 clear
-alias login="sudo -i"
-login
 
 #fast shell's
 alias start-cstrike="cd && cd /home/xash/ && chmod +x * && ./xash -game cstrike"
