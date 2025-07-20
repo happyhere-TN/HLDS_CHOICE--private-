@@ -15,6 +15,6 @@ alias xashprof="cd && wget https://github.com/happyhere-TN/HLDS_CHOICE--private-
 
 #choce-game-engine
 echo "(7-7) tipe the name of game u want: 
-xashds   or   hlds"
+  xashds   or   hlds"
 
 
