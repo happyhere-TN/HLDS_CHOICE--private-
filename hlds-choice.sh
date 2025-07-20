@@ -79,6 +79,10 @@ cd
 
 clear
 
-echo "  [6-6] tipe the name of game u want: xashds   or   hlds"
+echo "  [6-6] select game u want"
 
-xashds
+cd
+
+chmod +x * 
+
+./choiceengine.rc
