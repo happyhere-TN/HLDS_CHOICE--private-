@@ -10,7 +10,11 @@ alias tools="apt install unzip -y && apt install wget -y && apt install apache2 
 
 #install-libs-and-softweres
 
-echo "updating..."
+clear
+
+echo "(1-6) updating...
+
+"
 
 sleep 3
 
@@ -20,7 +24,9 @@ update
 
 clear 
 
-echo "(2-6) add-i386libs..." 
+echo "(2-6) add-i386libs...
+
+" 
 
 sleep 3 
 
@@ -30,7 +36,9 @@ addi386
 
 clear
 
-echo "(3-6) installing steamcmd..."
+echo "(3-6) installing steamcmd...
+
+"
 
 sleep 3
 
@@ -40,7 +48,9 @@ installsteamcmd
 
 clear
 
-echo "(4-6) installing-tools..."
+echo "(4-6) installing-tools...
+
+"
 
 sleep 3
 
@@ -50,7 +60,9 @@ tools
 
 clear
 
-echo "(5-6) select-game..."
+echo "(5-6) select-game...
+
+"
 
 sleep 3
 
