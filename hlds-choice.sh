@@ -83,4 +83,6 @@ slgame
 
 clear 
 
-echo "   now tipe: bash choiceengine.rc"
+echo "    now tipe: bash choiceengine.rc
+
+"
