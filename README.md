@@ -1,6 +1,7 @@
 # HLDS_CHOICE--private-
 
  its a simple methode to install half-life dedicated server on linux (ubuntu,debian,mint)amdx64
+
 choice mean in project name: is ur choice for select server hlds or xashds 
 
 **HLDS_choce have:**
