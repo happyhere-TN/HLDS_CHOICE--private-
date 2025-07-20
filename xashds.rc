@@ -1,0 +1,35 @@
+HEIGHT=10
+WIDTH=40
+CHOICE_HEIGHT=20
+BACKTITLE="controle with up down keys"
+TITLE="select xash game server to open"
+MENU="Choose one of the following options:"
+
+OPTIONS=(1 "--START-CSTRIKE--"
+                     2 "--START-HL--"
+                     3 "--CS_SERVER-EDIT"
+                     4 "--HL_SERVER-EDIT")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+            cd && cd /home/xash && chmod +x * && clear && screen ./xash -game cstrike
+            ;;    
+      2)
+            cd && cd /home/xash && chmod +x * && clear && screen ./xash -game valve
+            ;;
+       3)
+            cd && cd /home/xash/cstrike && clear && nano server.cfg
+            ;;
+       4)
+            cd && cd /home/xash/valve && clear && clear && nano server.cfg
+            ;;
+esac
