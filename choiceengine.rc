@@ -1,5 +1,5 @@
-HEIGHT=15
-WIDTH=40
+HEIGHT=30
+WIDTH=70
 CHOICE_HEIGHT=18
 BACKTITLE="controle with up down keys"
 TITLE="select server"
