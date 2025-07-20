@@ -77,6 +77,8 @@ cd
 
 #choce-game-engine
 
+wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/choiceengine.rc
+
 clear
 
 echo "  [6-6] select game u want"
