@@ -10,8 +10,6 @@ alias installsteamcmd="add-apt-repository multiverse && cd && apt install steamc
 
 alias tools="apt install unzip -y && apt install wget -y && apt install apache2 && apt update -y"
 
-alias choiceengine="cd && wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/blob/main/choiceengine.sh && sh choiceengine.sh"
-
 #install-libs-and-softweres
 
 echo "updating..."
@@ -58,4 +56,6 @@ echo "(5-6) select-game..."
 
 sleep 3
 
-choiceengine
+cd
+
+wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/blob/main/choiceengine.sh && sh choiceengine.sh
