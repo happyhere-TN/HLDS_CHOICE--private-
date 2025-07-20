@@ -5,9 +5,8 @@ BACKTITLE="controle with up down keys"
 TITLE="select server"
 MENU="Choose one of the following options:"
 
-OPTIONS=(1 "xashds"
-         2 "hlds"
-         3 "exit")
+OPTIONS=(1 "XASHDS"
+         2 "HLDS")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -24,8 +23,5 @@ case $CHOICE in
             ;;
         2)
             hlds
-            ;;
-        3)
-            exit
             ;;
 esac
