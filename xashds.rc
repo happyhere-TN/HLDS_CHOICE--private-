@@ -20,7 +20,7 @@ CHOICE=$(dialog --clear \
 
 clear
 case $CHOICE in
-        1)
+      1)
             cd && cd /home/xash && chmod +x * && clear && screen ./xash -game cstrike
             ;;    
       2)
