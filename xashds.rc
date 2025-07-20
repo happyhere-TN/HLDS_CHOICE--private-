@@ -8,7 +8,8 @@ MENU="select xash game server to open:"
 OPTIONS=(1 "--START-CSTRIKE--"
                      2 "--START-HL--"
                      3 "--CS_SERVER-EDIT"
-                     4 "--HL_SERVER-EDIT")
+                     4 "--HL_SERVER-EDIT"
+                     5 "--Reinstall-xashds")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -31,5 +32,8 @@ case $CHOICE in
             ;;
        4)
             cd && cd /home/xash/valve && clear && clear && nano server.cfg
+            ;;
+       5)
+            cd && cd /home && rm -rf xash && cd && cd /home/xashbackup cp -rf xash /home && dialog --msgbox "reinstall-complited!" 10 25 && clear
             ;;
 esac
