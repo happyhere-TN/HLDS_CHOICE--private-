@@ -12,7 +12,7 @@ choice mean in project name: is ur choice for select server hlds or xashds
 
 ✅ XASHDS yes u can choose xashds on dialog menu to installing from steamcmd with latest libs version and u can runing xashds server (cstrike,valve)
 
-**screenshots**
+# Screenshots
 
 ![Image](https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/firstdialog.png)
 
