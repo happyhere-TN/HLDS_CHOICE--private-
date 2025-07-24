@@ -23,10 +23,10 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
        1)
-            cd && cd /home/hlds && chmod +x * && clear && screen ./hlds -game cstrike -dedicated
+            cd && cd /home/hlds && chmod +x * && clear && screen ./hlds_run -game cstrike -dedicated
             ;;    
        2)
-            cd && cd /home/hlds && chmod +x * && clear && screen ./hlds -game valve -dedicated
+            cd && cd /home/hlds && chmod +x * && clear && screen ./hlds_run -game valve -dedicated
             ;;
        3)
             cd && cd /home/hlds/cstrike && clear && nano server.cfg
