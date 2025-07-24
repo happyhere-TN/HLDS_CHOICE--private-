@@ -16,7 +16,7 @@ choice mean in project name: is ur choice for select server hlds or xashds
 
 ![Image](https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/firstdialog.png)
 
-![Image](https://raw.githubusercontent.com/happyhere-TN/termux_xashDS-new-engine-/refs/heads/main/secounddialog.png)
+![Image](https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/secounddialog.png)
 
 ![Image](https://raw.githubusercontent.com/happyhere-TN/termux_xashDS-new-engine-/refs/heads/main/publicserver.png)
 
