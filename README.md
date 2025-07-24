@@ -28,5 +28,6 @@ choice mean in project name: is ur choice for select server hlds or xashds
 #  after installation complited:
 **use this command to start HLDS-CHOICE**
 for hlds type: `bash hlds.rc`
+
 for xashds type: `bash xashds.rc`
 
