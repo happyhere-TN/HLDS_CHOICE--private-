@@ -1,10 +1,6 @@
 #!/bin/bash
 
 #fast shell's
-alias hlds="cd && cd /home/xash && cd.. && mkdir hlds && cd xash && mv -rf * /home/hlds chmod +x * && amxhlds"
-alias amxhlds="cd && cd /home/hlds/cstrike && rm liblist.gam && cd .. && wget https://github.com/happyhere-TN/xashds_public_server-vps-_tutorial/raw/refs/heads/main/addons_for_xashds.zip && extamx"
-alias extamx="unzip addons_for_xashds.zip && rm addons_for_xashds.zip"
-alias hldsprof="cd && wget"
 alias update="apt update -y && apt upgrade -y"
 alias addi386="dpkg --add-architecture i386 && apt update -y && apt install lib32gcc-s1 lib32stdc++6 libc6-i386 libcurl4-gnutls-dev:i386 libsdl2-2.0-0:i386"
 alias installsteamcmd="add-apt-repository multiverse && cd && apt install steamcmd && cd /usr/games && chmod +x * && ./steamcmd +force_install_dir /home/xash/ +login anonymous +app_update 90 validate +exit && apt remove steamcmd -y"
