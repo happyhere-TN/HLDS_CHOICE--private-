@@ -1,0 +1,43 @@
+HEIGHT=20
+WIDTH=40
+CHOICE_HEIGHT=20
+BACKTITLE="controle with up down keys"
+TITLE="Choose one of the following options"
+MENU="select hlds game server to open:"
+
+OPTIONS=(1 "--START-CSTRIKE--"
+                     2 "--START-HL--"
+                     3 "--CS_SERVER-EDIT"
+                     4 "--HL_SERVER-EDIT"
+                     5 "--Reinstall-hlds"
+                     6 "--hlds-info")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+       1)
+            cd && cd /home/hlds && chmod +x * && clear && screen ./hlds -game cstrike -dedicated
+            ;;    
+       2)
+            cd && cd /home/hlds && chmod +x * && clear && screen ./hlds -game valve -dedicated
+            ;;
+       3)
+            cd && cd /home/hlds/cstrike && clear && nano server.cfg
+            ;;
+       4)
+            cd && cd /home/hlds/valve && clear && clear && nano server.cfg
+            ;;
+       5)
+            cd && cd /home && rm -rf hlds && cd && cd /home/.hldsbackup && cp -rf hlds /home && dialog --msgbox "reinstall-complited!" 10 25 && clear && echo "  [[ to runing HLDS-CHOICE tipe: bach hlds.rc ]]"
+            ;;
+       6)
+            cd && clear && echo " hlds-files-in: /home/hlds"
+            ;;
+esac
