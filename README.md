@@ -12,6 +12,9 @@ choice mean in project name: is ur choice for select server hlds or xashds
 
 ✅ XASHDS yes u can choose xashds on dialog menu to installing from steamcmd with latest libs version and u can runing xashds server (cstrike,valve)
 
+**first-menu**
+![Image]()
+
 # login first
     sudo -i 
 # copy this command to start
