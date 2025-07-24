@@ -18,9 +18,15 @@ choice mean in project name: is ur choice for select server hlds or xashds
 
 ![Image](https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/secounddialog.png)
 
-![Image](https://raw.githubusercontent.com/happyhere-TN/termux_xashDS-new-engine-/refs/heads/main/publicserver.png)
+![Image](https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/publicserver.png)
 
 # login first
     sudo -i 
 # copy this command to start
     cd && wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/hlds-choice.sh && sh hlds-choice.sh 
+
+#  after installation complited:
+**use this command to start HLDS-CHOICE**
+for hlds type: `bash hlds.rc`
+for xashds type: `bash xashds.rc`
+
