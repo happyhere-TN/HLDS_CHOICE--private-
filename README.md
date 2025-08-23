@@ -25,7 +25,7 @@ choice mean in project name: is ur choice for select server hlds or xashds
 # copy this command to start installing
     cd && wget https://raw.githubusercontent.com/happyhere-TN/HLDS_CHOICE--private-/refs/heads/main/hlds-choice.sh && sh hlds-choice.sh 
 
-#  after installation complited:
+#  after complited installation:
 **use this command to start HLDS-CHOICE**
  
 for hlds type: `bash hlds.rc`
